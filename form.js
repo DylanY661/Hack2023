@@ -1,0 +1,12 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = $_POST["username"];
+    // Process the data or perform other actions
+}
+?>
+
+<?php
+// PHP code
+$user = "John Doe";
+?>
+

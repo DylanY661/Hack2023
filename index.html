@@ -7,12 +7,71 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+
+    
     <h1>Ohio Union Interactive Map</h1>
     <hr/>
+
+    <p> Please choose a start and end location to begin navigation: </p>
+
+    <form action="action.php" method="post">
+        <label for="locations">Choose a start location:</label>
+        <select name="locations" id="locations">
+            <option value="University Bookstore">University Bookstore</option>
+            <option value="Alonso Family Room">Alonso Family Room</option>
+            <option value="Multicultural Center">Multicultural Center</option>
+            <option value="Performance Hall">Performance Hall</option>
+            <option value="Information Center">Information Center</option>
+            <option value="Alumni Association">Alumni Association</option>
+            <option value="Great Hall">Great Hall</option>
+            <option value="US Bank Theater">US Bank Theater</option>
+            <option value="Sloopys Diner">Sloopys Diner</option>
+            <option value="Express-Oh">Express-Oh</option>
+            <option value="Union Market">Union Market</option>
+            <option value="Woody's Tavern">Woody's Tavern</option>
+            <option value="Great Hall Meeting Room">Great Hall Meeting Room</option>
+            <option value="North Entrance / OSU Public Safety">North Entrance / OSU Public Safety</option>
+            <option value="Ben and Arlene Roth Lounge">Ben and Arlene Roth Lounge</option>
+            <option value="Potter Plaza">Potter Plaza</option>
+        </select>
+
+    
+        <br></br>
+    
+    <label for="locations2">Choose an end location:</label>
+        <select name="locations2" id="locations2">
+            <option value="University Bookstore">University Bookstore</option>
+            <option value="Alonso Family Room">Alonso Family Room</option>
+            <option value="Multicultural Center">Multicultural Center</option>
+            <option value="Performance Hall">Performance Hall</option>
+            <option value="Information Center">Information Center</option>
+            <option value="Alumni Association">Alumni Association</option>
+            <option value="Great Hall">Great Hall</option>
+            <option value="US Bank Theater">US Bank Theater</option>
+            <option value="Sloopys Diner">Sloopys Diner</option>
+            <option value="Express-Oh">Express-Oh</option>
+            <option value="Union Market">Union Market</option>
+            <option value="Woody's Tavern">Woody's Tavern</option>
+            <option value="Great Hall Meeting Room">Great Hall Meeting Room</option>
+            <option value="North Entrance / OSU Public Safety">North Entrance / OSU Public Safety</option>
+            <option value="Ben and Arlene Roth Lounge">Ben and Arlene Roth Lounge</option>
+            <option value="Potter Plaza">Potter Plaza</option>
+        </select>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
+    
     <div id="floor1_map">
         <img src="union_floor_1.jpg"/>
         <div id="dot"></div>
     </div>
     <script src="map.js"></script>
+
+
+
+    
+    
 </body>
 </html>
+
+
