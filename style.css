@@ -4,7 +4,21 @@ h1 {
     font-size: 50px;
 }
 
-.clickable-dot {
+.dot-container {
+    position: relative;
+    width: 50px; /* Adjust container width as needed */
+    height: 50px; /* Adjust container height as needed */
+  }
+  
+  .clickable-dot {
     width: 10px;
     height: 10px;
-}
+    background-color: #FF0000; /* Adjust color as needed */
+    border-radius: 50%; /* Makes it a circular dot */
+    position: absolute;
+    left: 50%; /* Adjust horizontal position as needed */
+    top: 50%; /* Adjust vertical position as needed */
+    transform: translate(-50%, -50%); /* Center the dot within the container */
+    cursor: pointer; /* Change cursor to a pointer on hover to indicate interactivity */
+  }
+  
