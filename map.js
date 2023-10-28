@@ -1,5 +1,5 @@
-const mapButton = document.querySelector('#dot');
+const mapButton = document.querySelector('#bookstore');
 
 mapButton.addEventListener('click', function() {
-    window.location.href='image1.html';
+    window.location.href='location_pages/union_bank.html';
 });
