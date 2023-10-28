@@ -1,4 +1,10 @@
 h1 {
     color: red;
     text-align: center;
+    font-size: 50px;
+}
+
+.clickable-dot {
+    width: 10px;
+    height: 10px;
 }
