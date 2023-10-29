@@ -1,9 +1,29 @@
-/* #USBank {
-    position: relative;
-    width: 5px;
-    height: 5px;
-} */
-
+/* Style the body and headings */
 body {
-    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #1d137a;
+    color: #ffffff;
+    padding: 20px;
+}
+
+/* Style the images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style image descriptions */
+p {
+    font-style: italic;
+    color: #555;
+    text-align: center;
 }
