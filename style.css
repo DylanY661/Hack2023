@@ -12,10 +12,6 @@ h1 {
     padding: 20px;
 }
 
-p {
-    text-align: center;
-}
-
 #floor1_map {
     position: relative;
     width: 300px;
